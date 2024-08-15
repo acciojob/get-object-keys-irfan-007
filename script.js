@@ -7,5 +7,6 @@ Object.prototype.getKeys=function(){
 	for(let i in this){
 		arr.push(i);
 	}
+	arr.pop();
 	return arr;
 }
